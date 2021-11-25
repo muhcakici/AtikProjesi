@@ -28,7 +28,6 @@ while(True):
         if(150<area<2000):
             cv.putText(frame, "Plastik", (x+20,y+20), cv.FONT_HERSHEY_SIMPLEX, 0.75, (23,197,254),2)
 
-
 #KAGIT
 
     gray=cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
